@@ -1,0 +1,142 @@
+body{
+    width: 100%; 
+    height: 700px;
+    background-color: #D4F4CD;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+font-family: "Poppins", sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  background-color: 	#e4f8f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+ul {
+  margin: 0;
+  padding:0;
+}
+
+li {
+  list-style: none; 
+  margin: 10px;
+  display: inline;
+}
+
+li a {
+  padding: 15px 25px; 
+  margin:0;
+  border: 0px solid #f00; 
+  background: #7cb27d;
+  text-decoration: none;
+  color:#FFF;
+  /* cantos arredondados */
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+
+li a:hover {
+  background: #bbe1ea;
+  color: #000; 
+  border-color: #000;
+}
+    /* Fim do navbar */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+ /*  Incio css tabela */
+  table {    
+      border-collapse: collapse;
+      width: 100%;
+  }
+  th, td {
+      padding: 15px;
+      text-align: left;
+      border: 1px solid rgb(185, 178, 178);  
+      width: 20%;
+   
+  }
+  a{
+    text-decoration:none;
+  }
+  p{
+    font-size: 20px;
+  }
+
+/* Defininco margins */
+  .mat{
+margin-right: 150px;
+margin-left: 80px;
+
+  }
+  .icons-btn{
+    width: 40px;
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+  /* FOOTER DO SITE PARA CONTATO */
+  footer{
+    background-color: #bbe1ea;
+    margin-top: 70px;
+    padding-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+h5{
+    padding-bottom: 10px;
+}
+
+.footer-ul {
+    margin: 0;
+    padding:0;
+    display: inline;
+}
+
+.footer-li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+.footer-li a {
+    border: 0px solid #f00; 
+    background: #7cb27d;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+/* MUDA O FUNDO QUANDO O MOUSE PASSA */
+.footer-li a:hover {
+    background: #d2f4e6;
+    color: #000; 
+    border-color: #000;
+}
+
+.icons-btn{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+}

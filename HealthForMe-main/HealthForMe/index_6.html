@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3ed5240c9.js" crossorigin="anonymous" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthForMe</title>
+    <link rel="stylesheet" href="css/style_ajuda.css">
+    <link rel="stylesheet" href="css/style2_ajuda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3ed5240c9.js" crossorigin="anonymous" defer></script>
+    <!-- Inclusão do jQuery-->
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <!-- Inclusão do Plugin jQuery Validation-->
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">HealthForMe</h1>
+    </header>
+    <nav class="topnav">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index_2.html">Videos</a></li>
+            <li><a href="index_3.html">Onde Buscar Ajuda</a></li>
+            <li><a href="index_4.html">Podcast</a></li>
+            <li><a href="index_5.html">eBooks</a></li>
+            <li><a href="index_6.html">Entre em Contato conosco</a></li>
+        </ul>
+    </nav>
+
+    <header>
+
+        <div class="container-flex">
+            <div class="conteudo">
+                <h1>Entre em contato conosco</h1>
+
+                <form id="formComentario" method="post" action="./email.php">
+                    <fieldset>
+                      <legend>Por favor preencha os dados</legend>
+                      <p>
+                        <label for="cnome">Nome Completo:</label>
+                        <input class="field" type="text" id="cnome" name="nome" required minlength="2">
+                      </p>
+                      <p>
+                        <label for="cemail">E-mail*:</label>
+                        <input class="field" type="email" id="cemail" name="email" required >
+                      </p>
+                      <p>
+                        <label for="ccomentario">Seu comentário:</label><br>
+                        <textarea id="ccomentario" name="mensagem" required rows="4" cols="50" ></textarea>
+                      </p>
+                      <input class="field" type="submit" value="Enviar">
+                    </fieldset>
+                  </form>
+            </div>
+           <div class="conteudo2">
+               <img class="img-conteudo" src="img/Banner-ep2 (1).png" alt="">
+           </div>
+        </div>
+
+    </header>
+    <!-- Inclusão das validações com o Plugin jQuery Validation-->
+    <script src="validacao.js"></script>
+    <script src="js/button.js"></script>
+</body>
+</html>
