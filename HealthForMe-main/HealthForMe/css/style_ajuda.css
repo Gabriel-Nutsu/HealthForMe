@@ -133,6 +133,8 @@ p{
     /* margin-top: -10px; */
 }
 
+#ccomentario{ resize: none; }
+
 .conteudo2{
     padding-top: 20px;
     width: 700px;
